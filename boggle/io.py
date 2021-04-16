@@ -12,7 +12,7 @@ def download_txt_file(txt_url: str = None, target_path: str = None) -> None:
         f.write(url_content)
 
 def get_word_list(txt_path: str) -> List[str]:
-    with open('../data/wordlist.txt') as f:
+    with open(txt_path) as f:
         content = f.read().splitlines()
     return content
 

@@ -17,9 +17,6 @@ class Path:
     def get_new_paths(self):
         return [Path(nodes=np.vstack((self.nodes, neighbour)), gridsize=self.gridsize) for neighbour in self.find_neighbours()]
     
-    def grid_to_text(self, boggle_grid: np.array):
-        return ''.join(boggle_grid[self.nodes[:,0],self.nodes[:,1]].tolist())
-    
     @staticmethod 
     def is_row_in_array(row , arr):
         return (arr == row).all(axis=1).any()
