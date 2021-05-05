@@ -7,7 +7,7 @@ class BoggleGrid:
         """
         if boggle_grid = None, create random
         """
-        if boggle_grid:
+        if boggle_grid is not None: 
             self.boggle_grid = boggle_grid
             self.gridsize = boggle_grid.shape
         else:
