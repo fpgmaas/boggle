@@ -24,13 +24,13 @@ print([word['word'] for word in all_words])
 
 --- BOGGLE ---
 
-[['i' 'p' 'r' 'a']
- ['c' 's' 'o' 'l']
- ['t' 'j' 'e' 'd']
- ['f' 'v' 'u' 'x']]
+[['a' 'b' 'c' 'd']
+ ['e' 'f' 'g' 'h']
+ ['i' 'j' 'k' 'l']
+ ['m' 'n' 'o' 'p']]
 
 
 --- ALL WORDS ---
 
-['isp', 'pro', 'pol', 'pos', 'por', 'pst', 'pis', 'ral', 'rol', 'roe', 'ros', 'ale', 'ars', 'cis', 'sol', 'sop', 'soa', 'sip', 'sic', 'ode', 'oed', 'opi', 'ors', 'led', 'lex', 'lev', 'les', 'los', 'lor', 'lar', 'jeu', 'jol', 'joe', 'esp', 'elo', 'dux', 'des', 'deo', 'del', 'dol', 'dos', 'dop', 'dor', 'vel', 'prol', 'pole', 'poes', 'poel', 'pose', 'post', 'piso', 'rode', 'roes', 'rost', 'sela', 'sjeu', 'sjor', 'lest', 'laos', 'judo', 'duel', 'does', 'doel', 'dors', 'dorp', 'vues', 'vest', 'veld', 'velo', 'roest', 'solde', 'solex', 'sjoel', 'spoed', 'spoel', 'judex', 'duvel', 'dorst', 'dorps', 'postje', 'sodeju', 'judoles']
+['abc', 'bef', 'bei', 'baf', 'cfk', 'fij', 'feb', 'glo', 'ijk', 'ino', 'ink', 'jok', 'jol', 'kop', 'kon', 'kol', 'kno', 'lok', 'mij', 'min', 'mie', 'nop', 'nok', 'nol', 'pon', 'pok', 'pol', 'fijn', 'glop', 'jonk', 'jein', 'klop', 'knop', 'knol', 'knie', 'lonk', 'mijn', 'mink', 'ponk', 'polk', 'plok', 'afijn', 'ojief']
 ```
