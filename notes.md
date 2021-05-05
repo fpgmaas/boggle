@@ -1,0 +1,3 @@
+- Tesseract OCR
+- API with Fast API (https://levelup.gitconnected.com/deploy-a-dockerized-fastapi-application-to-aws-cc757830ba1b)
+- 
