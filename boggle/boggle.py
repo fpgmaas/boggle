@@ -36,7 +36,7 @@ class Boggle:
             paths = [paths[i] for i in idx_to_keep]
             if len(idx_to_keep) == 0:
                 all_words_found=True
-        return all_words
+        return np.unique(all_words)
          
     def initialize_paths(self) -> List[Path]:
         """
